@@ -13,6 +13,8 @@
 		3096A1891D634CD600D1650A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3096A1871D634CD600D1650A /* Main.storyboard */; };
 		3096A18B1D634CD600D1650A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3096A18A1D634CD600D1650A /* Assets.xcassets */; };
 		3096A18E1D634CD600D1650A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3096A18C1D634CD600D1650A /* LaunchScreen.storyboard */; };
+		3096A1961D634CF800D1650A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3096A1951D634CF800D1650A /* CoreLocation.framework */; };
+		3096A1981D634CFF00D1650A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3096A1971D634CFF00D1650A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3096A18A1D634CD600D1650A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3096A18D1D634CD600D1650A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3096A18F1D634CD600D1650A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3096A1951D634CF800D1650A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3096A1971D634CFF00D1650A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3096A1981D634CFF00D1650A /* MapKit.framework in Frameworks */,
+				3096A1961D634CF800D1650A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,8 @@
 		3096A1721D634CD600D1650A = {
 			isa = PBXGroup;
 			children = (
+				3096A1971D634CFF00D1650A /* MapKit.framework */,
+				3096A1951D634CF800D1650A /* CoreLocation.framework */,
 				3096A17D1D634CD600D1650A /* WhereMyFriends */,
 				3096A17C1D634CD600D1650A /* Products */,
 			);
